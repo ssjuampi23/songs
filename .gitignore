@@ -5,6 +5,12 @@
 /.pnp
 .pnp.js
 
+# idea
+.idea/*
+
+# eslint cache
+.eslintcache
+
 # testing
 /coverage
 
