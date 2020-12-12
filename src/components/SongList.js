@@ -35,7 +35,6 @@ class SongList extends Component {
 // mapStateToProps by CONVENTION takes the 'state' object containing all the Redux data store
 // we can name the prop state, state1 or whatever we want
 const mapStateToProps = (state) => {
-    console.log(state);
     return { songs: state.songs };
 };
 
